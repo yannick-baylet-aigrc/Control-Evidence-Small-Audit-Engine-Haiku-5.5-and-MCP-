@@ -1,0 +1,3 @@
+﻿Control ID: ISO-42001-A.8.2
+Requirement: AI System Risk Treatment & Technical Review
+The organization shall perform automated security scanning, prompt-injection vulnerability analysis, and mandatory peer code review for all production deployments of AI pipeline components. All review sign-offs and scan logs must be retained for compliance audits.
