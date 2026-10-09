@@ -8,7 +8,7 @@ A Python tool utilizing the \*\*Claude API (Tool Use / Function Calling)\*\* to 
 
 \## main overview
 
-Manual evidence validation in internal audits is time-consuming and exposed to human error. This project shows how Claude can be integrated into GRC automation processes to:
+Manual evidence validation in internal audits is time-consuming and subject to human error. This project shows how Claude can be integrated into GRC automation processes to:
 
 1\. Compare raw operational evidence (logs, PR reviews, policy docs) against formal control specifications.
 
@@ -22,7 +22,7 @@ Manual evidence validation in internal audits is time-consuming and exposed to h
 
 \## Features
 
-\- \*\*Schema Enforcement:\*\* Uses Claude's tool-use parameter to guarantee strict JSON output without relying on un-reliable string parsing or regex.
+\- \*\*Schema Enforcement:\*\* Uses Claude's tool-use parameter to guarantee strict JSON output without relying on unreliable string parsing or regex.
 
 \- \*\*Multi Frameworks Compliant:\*\* Works with ISO 27001, ISO 42001, NIST AI RMF, SOC 2, or custom internal controls.
 
@@ -36,7 +36,7 @@ Manual evidence validation in internal audits is time-consuming and exposed to h
 
 &#x20;  ```bash
 
-&#x20;  git clone \ [https://github.com/yannick-baylet-aigrc/claude-compliance-auditor.git](https://github.com/yannick-baylet-aigrc/claude-compliance-auditor.git)
+&#x20;  git clone [https://github.com/yannick-baylet-aigrc/claude-compliance-auditor.git](https://github.com/yannick-baylet-aigrc/claude-compliance-auditor.git)
 
 &#x20;  cd claude-compliance-auditor
 
