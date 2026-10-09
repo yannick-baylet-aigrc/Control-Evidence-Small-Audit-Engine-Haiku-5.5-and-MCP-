@@ -36,7 +36,7 @@ Manual evidence validation in internal audits is time-consuming and exposed to h
 
 &#x20;  ```bash
 
-&#x20;  git clone \ [https://github.com/MY\_USERNAME/claude-compliance-auditor.git](https://github.com/YOUR\_USERNAME/claude-compliance-auditor.git)
+&#x20;  git clone \ [https://github.com/yannick-baylet-aigrc/claude-compliance-auditor.git](https://github.com/yannick-baylet-aigrc/claude-compliance-auditor.git)
 
 &#x20;  cd claude-compliance-auditor
 
