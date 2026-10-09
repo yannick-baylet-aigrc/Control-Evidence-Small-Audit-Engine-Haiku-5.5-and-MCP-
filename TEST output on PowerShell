@@ -1,0 +1,18 @@
+(venv) PS D:\DATA\ProjetsIA\claude-compliance-auditor> python auditor.py
+Executing Compliance Audit via Claude API (claude-haiku-5-5)...
+Project Directory: D:\DATA\ProjetsIA\claude-compliance-auditor
+
+--- AUDIT REPORT OUTPUT (JSON) ---
+{
+  "control_id": "ISO-42001-A.8.2",
+  "compliance_status": "NON_COMPLIANT",
+  "findings_summary": "Commit c91a20f (repository ai-customer-support-agent, author Alex Chen, 2026-10-05) modifies prompt templates and adds RAG retrieval logic, an AI pipeline component. The evidence fails all three mandatory elements of the control: (1) Automated security scanning: the SAST scan was SKIPPED because the '--skip-sast' flag was enabled in the workflow configuration. Only Static Analysis passed, which does not satisfy the security scanning requirement. (2) Prompt-injection vulnerability analysis: Prompt Injection Fuzzing is NOT CONFIGURED, so no analysis was performed, despite the commit changing prompt templates. (3) Mandatory peer code review: no peer reviewer is listed, so no review sign-off exists. The evidence does not establish that this change was reviewed or scanned before production deployment. It also does not confirm whether the change was deployed to production; the control applies to production deployments, so deployment status should be verified. Note that the commit log alone does not show whether a review occurred outside the Git record.",
+  "evidence_gaps": [
+    "No peer reviewer or review sign-off recorded for commit c91a20f.",
+    "SAST security scan skipped via '--skip-sast' flag; no security scan results retained.",
+    "Prompt injection fuzzing not configured; no prompt-injection vulnerability analysis performed on changed prompt templates or RAG retrieval logic.",
+    "No evidence of production deployment status or deployment approval for this commit.",
+    "No retained scan logs or review records provided for audit trail.",
+    "No documented justification or risk acceptance for skipping security scanning."
+  ]
+}
