@@ -1,6 +1,6 @@
 \# Automated Control-Evidence-Small-Auditor-Haiku-5.5-and-MCP-
 
-Control \&amp; Evidence Small Audit Engine using Claude Haiku 5.5 and MCP framework
+Control \&amp; Small Evidence Audit Engine using Claude Haiku 5.5 and MCP framework
 
 A Python tool utilizing the \*\*Claude API (Tool Use / Function Calling)\*\* to evaluate compliance evidence against control requirements, across security and AI governance frameworks (ISO 27001, ISO 42001, EU AI Act, NIST AI RMF).
 
